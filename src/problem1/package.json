@@ -1,0 +1,33 @@
+{
+  "name": "sum-to-n-functions",
+  "version": "1.0.0",
+  "description": "Creative implementations of sum to n functions with unit tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:verbose": "jest --verbose"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverageFrom": [
+      "index.js"
+    ],
+    "coverageDirectory": "coverage",
+    "coverageReporters": ["text", "lcov", "html"]
+  },
+  "keywords": [
+    "javascript",
+    "algorithms",
+    "generator",
+    "bigint",
+    "memoization",
+    "unit-testing"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
